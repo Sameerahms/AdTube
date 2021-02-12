@@ -1,0 +1,76 @@
+  .logo-image{
+      width: 60px;
+      height: 38px;
+      border-radius:0%;
+      overflow: hidden;
+      margin-top: 1px;
+      margin-left: 6px;      
+  }
+  
+  .ios .navbar {
+    height: 48px;
+    font-size: 17px;
+    background: #f7f7f8;
+    padding: .5rem .5rem .5rem .5rem;
+	}
+	
+   .navbar-toggler-icon {
+      display: inline-block;
+      width: 1em;
+      height: 1em;
+      vertical-align: middle;
+      content: "";
+      background: no-repeat center center;
+      background-size: 100% 100%;
+  }
+  
+  .dropdown-menu {
+      position: absolute;
+      top: 100%;
+      left: -143px;
+      z-index: 1000;
+      display: none;
+      float: left;
+      min-width: 10rem;
+      padding: .3rem 0;
+      margin: .120rem 0 0;
+      font-size: 1rem;
+      color: #212529;
+      text-align: left;
+      list-style: none;
+      background-color: #fff;
+      background-clip: padding-box;
+      border: 1px solid rgba(0, 0, 0, .15);
+      border-radius: .25rem;
+  }
+  
+  .videonav{
+  	margin: -6px 0px -6px 0px;
+  }
+  
+  .videophone{
+  	color: black; font-size:14px;
+  }
+  
+  .videoDiv{
+  	background: black;
+  	z-index: 2;
+  }
+  
+  .videoDiv1{
+  	color: white;
+  }
+  
+  .numcard{ 
+  	background: black;
+  	margin:41px 0px -10px 0px; 
+  }
+  
+  .numrow{
+  	margin-top:8px;
+  	padding-top: 8px;
+  }
+  
+  .numbermargin{
+  	margin-right:6px;
+  }

@@ -1,0 +1,319 @@
+
+		.bt {
+            background-color: DodgerBlue;
+            border: none;
+            color: white;
+            padding: 2px 0px;
+            font-size: 20px;
+            cursor: pointer;
+            width:120px; 
+           
+        }
+
+        .clicked {
+            background-color: #0505ff;
+            border: none;
+            color: white;
+            padding: 2px 0px;
+            font-size: 20px;
+            cursor: pointer;
+            
+        }
+
+         /* Darker background on mouse-over */ 
+         .bt:hover { 
+             background-color: RoyalBlue; 
+         }  
+
+	 .logo-image{
+	      width: 60px;
+	      height: 38px;
+	      border-radius:0%;
+	      overflow: hidden;
+	      margin-top: 1px;
+	      margin-left: 6px;
+	      
+	  }
+	  
+	  .ios .navbar {
+	    height: 52px;
+	    font-size: 17px;
+	    background: #f7f7f8;
+	    padding: .5rem .5rem .5rem .5rem;
+	}
+	   .navbar-toggler-icon {
+	      display: inline-block;
+	      width: 1em;
+	      height: 1em;
+	      vertical-align: middle;
+	      content: "";
+	      background: no-repeat center center;
+	      background-size: 100% 100%;
+	  }
+	  
+	  .dropdown-menu {
+	      position: absolute;
+	      top: 100%;
+	      left: -143px;
+	      z-index: 1000;
+	      display: none;
+	      float: left;
+	      min-width: 10rem;
+	      padding: .3rem 0;
+	      margin: .120rem 0 0;
+	      font-size: 1rem;
+	      color: #212529;
+	      text-align: left;
+	      list-style: none;
+	      background-color: #fff;
+	      background-clip: padding-box;
+	      border: 1px solid rgba(0, 0, 0, .15);
+	      border-radius: .25rem;
+	  }
+	  
+	  .like, .dislike {
+	    display: inline-block;
+	    margin-bottom: 0;
+	    font-weight: normal;
+	    text-align: center;
+	    vertical-align: middle;
+	    cursor: pointer;
+	    background: lightgreen;
+	    border: 1px solid transparent;
+	    white-space: nowrap;
+	    padding: 6px 12px;
+	    font-size: 14px;
+	    line-height: 1.428571429;
+	    border-radius: 4px;
+	}
+	.qty1, .qty2 {
+	    border: none;
+	    width:20px;
+	    background: transparent;
+	}
+
+
+	input[type=text], input[type=number] {
+	  width: 50%;
+	  aling:center; 
+	  padding: 12px 12px;
+	  margin: 8px 0;
+	  display: inline-block;
+	  border: 1px solid #ccc;
+	  box-sizing: border-box;
+	}
+		
+		/* Set a style for all buttons */
+		button {
+		  background-color: #4CAF50;
+		  color: white;
+		  padding: 14px 20px;
+		  margin: 8px 0;
+		  border: none;
+		  cursor: pointer;
+		  width: 100%;
+		}
+		
+		button:hover {
+		  opacity: 0.8;
+		}
+		
+		/* Extra styles for the cancel button */
+		.cancelbtn {
+		  width: 80px;
+		  padding: 10px 10px;
+		  background-color: #f44336;
+		}
+		
+		.yesbtn {
+		  width: 80px;
+		  padding: 10px 10px;
+		  
+		}
+				
+				 		
+		/* Center the image and position the close button */
+		.imgcontainer {
+		  text-align: center;
+		  margin: 24px 0 12px 0;
+		  position: relative;
+		  padding-top:14px;
+		}
+		
+		img.avatar {
+		  width: 200px;
+		  border-radius: 0%;
+		}
+		
+		.container {
+		  padding: 16px;
+		}
+		
+		span.psw {
+		  float: right;
+		  padding-top: 16px;
+		}
+		
+		/* The Modal (background) */
+		.modal {
+		  display: none; /* Hidden by default */
+		  position: fixed; /* Stay in place */
+		  z-index: 5; /* Sit on top */
+		  left: 0;
+		  top: 0;
+		  width: 80%; /* Full width */
+		  height: 60%; /* Full height */
+		  overflow: auto; /* Enable scroll if needed */
+		  color: #000;/* Fallback color */
+		  background-color: #C9C3C3; /* Black w/ opacity */
+		  margin: 60px 10% 0px 10%; 		
+		}
+		
+		/* Modal Content/Box */
+		.modal-content {
+		  background-color: #fefefe;
+		  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+		  border: 1px solid #888;
+		  width: 80%;
+		}
+		
+		/* The Close Button (x) */
+		.close {
+		  position: absolute;
+		  right: 15px;
+		  top: -15px;
+		  color: #000;
+		  font-size: 35px;
+		  font-weight: bold;
+		  
+		}
+		
+		.close:hover,
+		.close:focus {
+		  color: red;
+		  cursor: pointer;
+		}
+		
+		/* Add Zoom Animation */
+		.animate {
+		  -webkit-animation: animatezoom 0.6s;
+		  animation: animatezoom 0.6s
+		}
+		
+		@-webkit-keyframes animatezoom {
+		  from {-webkit-transform: scale(0)} 
+		  to {-webkit-transform: scale(1)}
+		}
+		  
+		@keyframes animatezoom {
+		  from {transform: scale(0)} 
+		  to {transform: scale(1)}
+		}
+		
+		/* Change styles for span and cancel button on extra small screens */
+		@media screen and (max-width: 300px) {
+		  span.psw {
+		     display: block;
+		     float: none;
+		  }
+		  .cancelbtn {
+		     width: 100%;
+		  }
+		}
+		
+		.navmcq{
+			margin: -6px 0px -6px 0px;
+		}
+		
+		.phonenum{
+			color: black;
+			font-size:14px;
+		}
+		
+		.conmar{
+			margin-top: 60px;
+		}
+		
+		.h2size{
+			font-size: 25px;
+		}
+		
+		.paddmcq{
+		padding-top:5px;
+		}
+		
+		.paddmcq2{
+		padding:0px;
+		}
+		
+		.mcqwidth{
+		width: 100px;
+		}
+		
+		.marleft{
+		margin-left: 0%;
+		}
+		
+		.marright{
+		margin-right: 0%;
+		}
+		
+		.floatright{
+		float:right;
+		}
+		
+		.paddans{
+		padding:0px 20% 0px 0px;
+		}
+		
+		.fontans{
+		font-size: 20px;
+		}
+		
+		.btnpadd{
+		padding:0px 40% 0px 40%;
+		} 
+		
+		.imglike{
+			width: 25px; 
+			height:25px; 
+			border-radius:0%; 
+			float: right;
+		}
+		
+		.imgdislike{
+			width: 25px; 
+			height:25px; 
+			border-radius:0%; 
+			float: left;
+		}
+		
+		.imgad{
+			width:200px;
+		}
+		
+		.imgnum{
+			width:50px;
+		} 
+		
+		.imglike{
+			width: 25px; 
+			height:25px; 
+			border-radius:0%; 
+			float: right;
+		}
+		
+		.imgdislike{
+			width: 25px; 
+			height:25px; 
+			border-radius:0%; 
+			float: left;
+		}
+		
+		.imgad{
+			width:200px;
+		}
+		
+		.imgnum{
+			width:50px;
+		} 
